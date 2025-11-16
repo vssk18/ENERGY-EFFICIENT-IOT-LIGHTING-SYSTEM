@@ -46,3 +46,28 @@ energy-efficient-iot-lighting-system/
 ├─ LICENSE
 ├─ .gitignore
 └─ Makefile
+
+---
+
+## 6. Results (demo profile)
+
+The default simulation profile (`simulator/config.py`) models a very low-traffic scenario.
+
+With the current settings:
+
+- **Baseline energy** (always-ON): ~756 Wh per week  
+- **Prototype energy** (presence + dimming): ~338 Wh per week  
+- **Savings**: ~55% in this specific demo profile
+
+These numbers are written to:
+
+- `data/energy_summary.csv`
+- `data/prototype_log.csv`
+
+And the figures are saved in:
+
+- `results/duty_cycle_plot.png`
+- `results/savings_bar.png`
+
+In a more realistic campus / street profile with more motion,  
+you can expect savings to move closer into the **15–25%** range.
