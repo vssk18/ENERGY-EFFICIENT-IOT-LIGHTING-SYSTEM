@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Results / generated
+data/prototype_log.csv
+data/energy_summary.csv
+results/*.png
+
+# Arduino / build artefacts
+build/
+.pio/
+

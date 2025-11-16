@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# macOS
+.DS_Store
+
+# Generated data and figures
+data/*.csv
+results/*.png
+
+# Local binaries / build artifacts
+tools/cpp_log_summary/log_summary
